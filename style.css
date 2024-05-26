@@ -1,0 +1,34 @@
+body{
+    font-family: system-ui;
+    text-align: center;
+    margin-top: 40px;
+    font-size:1.5em;
+}
+img{
+    height:150px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+main *{
+    margin-bottom: 12px;
+}
+input[name="Name"]{
+    font-size:large;
+    outline:none;
+    border:none;
+    border-bottom:1px solid black;
+    text-align:center;
+}
+#submit{
+    background:#8bc34a;
+    color:#fff;
+    font-size:.8em;
+    border:none;
+    border-radius: 5px;
+    padding:5px 15px;
+    margin: 20px;
+    cursor: pointer;
+}
